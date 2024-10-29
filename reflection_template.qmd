@@ -23,6 +23,11 @@ execute:
 
 ```{r}
 #| label: wd-1-csv
+#from Lab 4
+
+childcare_costs <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-09/childcare_costs.csv')
+
+counties <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-09/counties.csv')
 
 ```
 
@@ -45,6 +50,21 @@ execute:
 ```{r}
 #| label: wd-2
 
+#from lab 3, question 4
+teacher_evals_clean <- evaluations |>
+  rename(sex = gender) |>
+  filter(no_participants >= 10) |>
+  mutate(teacher_id = as.factor(teacher_id)) |>
+  select(course_id, 
+         teacher_id,
+         question_no,
+         no_participants,
+         resp_share,
+         SET_score_avg,
+         percent_failed_cur,
+         academic_degree,
+         seniority,
+         sex)
 ```
 
 **WD-3: I can filter rows from a dataframe for a *variety* of data types (e.g., numeric, integer, character, factor, date).**
@@ -52,7 +72,8 @@ execute:
 -   numeric
 
 ```{r}
-#| label: wd-3-numeric
+#| label: wd-3-numeric\
+
 
 ```
 
@@ -60,6 +81,12 @@ execute:
 
 ```{r}
 #| label: wd-3-string
+
+#from lab 3, question 7
+teacher_evals_clean |>
+   filter(if_any(-c("teacher_id",
+                    "course_id"), 
+                 is.na))
 
 ```
 
