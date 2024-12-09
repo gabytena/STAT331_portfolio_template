@@ -9,3 +9,5 @@ editor: visual
 -   Focus specifically on data science concepts and the skills we employed in learning them, not a laundry list of topics that you learned (those are in the syllabus, so I know them already).
 
 -   Focus on a small number of specific areas of growth for you that happened in STAT 331. Identify at least one artifact in your portfolio that illustrates each area of growth and explain how this artifact shows growth in the way you are describing.
+
+The main things I was able to take away and help me become a better student of data science was how to use my resources. I liked learning through looking up code's documentation and keeping track of how I used my code. I am a big learn by doing person and thinks tend to stick with me more the more I practice and see it played out so I often found myself playing around with different approaches and sticking with whatever worked and made more sense. One way this can be seen in my portfolio is my uses of mutate. I liked how I could mutate many different data in many different ways. I think this was what I experimented the most throughout the course.

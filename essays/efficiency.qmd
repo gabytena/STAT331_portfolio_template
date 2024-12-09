@@ -15,3 +15,5 @@ As we’ve said in the class efficiency is a pivotal component of statistical co
 -   Why is efficiency important?
 
 -   Where did you encounter efficiency, and what were some [“a-ha” moments](https://www.merriam-webster.com/dictionary/aha%20moment) you had about efficiency? (For the latter, tie each a-ha moment to an artifact in the portfolio.)
+
+Investopedia defines efficiency as "peak level of performance that uses the least amount of inputs to achieve the highest amount of output." I was able to be efficient through using material that I had previously learned to grow my skill. As the class went on and I was able to become more confident in my goals, I was able to be more efficient with my time and code.
